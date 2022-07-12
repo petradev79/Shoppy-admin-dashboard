@@ -5,7 +5,6 @@ import draftToHtml from 'draftjs-to-html';
 import 'react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
 
 import { Header } from '../components';
-import { EditorData } from '../data/dummy';
 
 const EditorT = () => {
   const [description, setDescription] = useState({
