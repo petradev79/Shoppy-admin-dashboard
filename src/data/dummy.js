@@ -213,9 +213,8 @@ const gridEmployeeCountry = (props) => (
     <span>{props.Country}</span>
   </div>
 );
-export const EditorData = () => (
-  <div>
-    <h3>
+export const EditorData = () =>
+  `
       Try React React has been designed from the start for gradual adoption, and
       you can use as little or as much React as you need. Whether you want to
       get a taste of React, add some interactivity to a simple HTML page, or
@@ -256,9 +255,7 @@ export const EditorData = () => (
       recommend going through this JavaScript overview to check your knowledge
       level. It will take you between 30 minutes and an hour but you will feel
       more confident learning React.
-    </h3>
-  </div>
-);
+    `;
 const customerGridImage = (props) => (
   <div className='image flex gap-4'>
     <img

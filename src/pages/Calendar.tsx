@@ -1,11 +1,13 @@
 import { useState, useContext, useEffect, Fragment } from 'react';
 
-import CalendarHeader from '../components/Calendar/CalendarHeader';
-import CalendarSidebar from '../components/Calendar/CalendarSidebar';
-import CalendarMonth from '../components/Calendar/CalendarMonth';
-import CalendarEventModal from '../components/Calendar/CalendarEventModal';
 import { CalendarContext } from '../contexts/CalendarProvider';
 import { getMonth } from '../utility/util';
+import {
+  CalendarHeader,
+  CalendarSidebar,
+  CalendarMonth,
+  CalendarEventModal,
+} from '../components';
 
 const CalendarPage = () => {
   const [currenMonth, setCurrentMonth] = useState(getMonth());

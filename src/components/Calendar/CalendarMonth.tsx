@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 
-import CalendarDay from './CalendarDay';
+import { CalendarDay } from '../../components';
 
 const CalendarMonth = ({ month }: any) => {
   return (
