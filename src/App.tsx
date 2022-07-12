@@ -18,11 +18,11 @@ import {
   Pie,
   Financial,
   ColorMapping,
-  Pyramid,
-  Stacked,
+  Funnel,
 } from './pages';
 import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
 import { useStateContext } from './contexts/ContextProvider';
+import CalendarProvider from './contexts/CalendarProvider';
 
 import './App.css';
 
@@ -95,7 +95,14 @@ const App = () => {
                 {/* Apps  */}
                 <Route path='/kanban' element={<Kanban />} />
                 <Route path='/editor' element={<Editor />} />
-                <Route path='/calendar' element={<Calendar />} />
+                <Route
+                  path='/calendar'
+                  element={
+                    <CalendarProvider>
+                      <Calendar />
+                    </CalendarProvider>
+                  }
+                />
                 <Route path='/color-picker' element={<ColorPicker />} />
 
                 {/* Charts  */}
@@ -105,8 +112,7 @@ const App = () => {
                 <Route path='/pie' element={<Pie />} />
                 <Route path='/financial' element={<Financial />} />
                 <Route path='/color-mapping' element={<ColorMapping />} />
-                <Route path='/pyramid' element={<Pyramid />} />
-                <Route path='/stacked' element={<Stacked />} />
+                <Route path='/funnel' element={<Funnel />} />
               </Routes>
             </div>
             <Footer />

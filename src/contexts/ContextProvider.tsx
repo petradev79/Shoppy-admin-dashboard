@@ -13,8 +13,8 @@ type StateContextType = {
   activeMenu: boolean;
   screenSize: number | undefined;
   setScreenSize: (screenSize: number | undefined) => void;
-  handleClick: (clicked: any) => void;
-  isClicked?: InitialStateType;
+  handleClick: (clicked: string) => void;
+  isClicked: InitialStateType;
   initialState: InitialStateType;
   setIsClicked: (initialState: InitialStateType) => void;
   setActiveMenu: (isActive: boolean) => void;
@@ -22,7 +22,7 @@ type StateContextType = {
   setCurrentMode: (mode: string) => void;
   setMode: (e: React.ChangeEvent<HTMLInputElement>) => void;
   setColor: (color: string) => void;
-  themeSettings?: boolean;
+  themeSettings: boolean;
   setThemeSettings: (settings: boolean) => void;
 };
 
@@ -59,7 +59,7 @@ export const StateContextProvider = ({
     localStorage.setItem('colorMode', color);
   };
 
-  const handleClick = (clicked: any) =>
+  const handleClick = (clicked: string) =>
     setIsClicked({ ...initialState, [clicked]: true });
 
   return (
