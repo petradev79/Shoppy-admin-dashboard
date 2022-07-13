@@ -41,7 +41,6 @@ import product4 from './product4.jpg';
 import product5 from './product5.jpg';
 import product6 from './product6.jpg';
 import product7 from './product7.jpg';
-// import product8 from './product8.jpg';
 
 export const gridOrderImage = (props) => (
   <div>
@@ -182,20 +181,6 @@ export const kanbanData = [
   },
 ];
 
-// export const kanbanGrid = [
-//   { headerText: 'To Do', keyField: 'Open', allowToggle: true },
-
-//   { headerText: 'In Progress', keyField: 'InProgress', allowToggle: true },
-
-//   {
-//     headerText: 'Testing',
-//     keyField: 'Testing',
-//     allowToggle: true,
-//     isExpanded: false,
-//   },
-
-//   { headerText: 'Done', keyField: 'Close', allowToggle: true },
-// ];
 const gridEmployeeProfile = (props) => (
   <div className='flex items-center gap-2'>
     <img
@@ -213,52 +198,7 @@ const gridEmployeeCountry = (props) => (
     <span>{props.Country}</span>
   </div>
 );
-// export const EditorData = () => (
-//   <div>
-//     <h3>
-//       Try React React has been designed from the start for gradual adoption, and
-//       you can use as little or as much React as you need. Whether you want to
-//       get a taste of React, add some interactivity to a simple HTML page, or
-//       start a complex React-powered app, the links in this section will help you
-//       get started. Online Playgrounds If you’re interested in playing around
-//       with React, you can use an online code playground. Try a Hello World
-//       template on CodePen, CodeSandbox, or Stackblitz. If you prefer to use your
-//       own text editor, you can also download this HTML file, edit it, and open
-//       it from the local filesystem in your browser. It does a slow runtime code
-//       transformation, so we’d only recommend using this for simple demos. Add
-//       React to a Website You can add React to an HTML page in one minute. You
-//       can then either gradually expand its presence, or keep it contained to a
-//       few dynamic widgets. Create a New React App When starting a React project,
-//       a simple HTML page with script tags might still be the best option. It
-//       only takes a minute to set up! As your application grows, you might want
-//       to consider a more integrated setup. There are several JavaScript
-//       toolchains we recommend for larger applications. Each of them can work
-//       with little to no configuration and lets you take full advantage of the
-//       rich React ecosystem. Learn how. Learn React People come to React from
-//       different backgrounds and with different learning styles. Whether you
-//       prefer a more theoretical or a practical approach, we hope you’ll find
-//       this section helpful. If you prefer to learn by doing, start with our
-//       practical tutorial. If you prefer to learn concepts step by step, start
-//       with our guide to main concepts. Like any unfamiliar technology, React
-//       does have a learning curve. With practice and some patience, you will get
-//       the hang of it. First Examples The React homepage contains a few small
-//       React examples with a live editor. Even if you don’t know anything about
-//       React yet, try changing their code and see how it affects the result.
-//       React for Beginners If you feel that the React documentation goes at a
-//       faster pace than you’re comfortable with, check out this overview of React
-//       by Tania Rascia. It introduces the most important React concepts in a
-//       detailed, beginner-friendly way. Once you’re done, give the documentation
-//       another try! React for Designers If you’re coming from a design
-//       background, these resources are a great place to get started. JavaScript
-//       Resources The React documentation assumes some familiarity with
-//       programming in the JavaScript language. You don’t have to be an expert,
-//       but it’s harder to learn both React and JavaScript at the same time. We
-//       recommend going through this JavaScript overview to check your knowledge
-//       level. It will take you between 30 minutes and an hour but you will feel
-//       more confident learning React.
-//     </h3>
-//   </div>
-// );
+
 const customerGridImage = (props) => (
   <div className='image flex gap-4'>
     <img
@@ -282,29 +222,13 @@ const customerGridStatus = (props) => (
     <p>{props.Status}</p>
   </div>
 );
-// export const areaPrimaryXAxis = {
-//   valueType: 'DateTime',
-//   labelFormat: 'y',
-//   majorGridLines: { width: 0 },
-//   intervalType: 'Years',
-//   edgeLabelPlacement: 'Shift',
-//   labelStyle: { color: 'gray' },
-// };
 
-// export const areaPrimaryYAxis = {
-//   labelFormat: '{value}%',
-//   lineStyle: { width: 0 },
-//   maximum: 4,
-//   interval: 1,
-//   majorTickLines: { width: 0 },
-//   minorTickLines: { width: 0 },
-//   labelStyle: { color: 'gray' },
-// };
 export const barPrimaryXAxis = {
   valueType: 'Category',
   interval: 1,
   majorGridLines: { width: 0 },
 };
+
 export const barPrimaryYAxis = {
   majorGridLines: { width: 0 },
   majorTickLines: { width: 0 },
@@ -330,104 +254,12 @@ export const areaChartData = [
   { label: '2011', USA: 3.1, France: 2.3, Germany: 2.3 },
 ];
 
-// export const areaCustomSeries = [
-//   {
-//     dataSource: areaChartData[0],
-//     xName: 'x',
-//     yName: 'y',
-//     name: 'USA',
-//     opacity: '0.8',
-//     type: 'SplineArea',
-//     width: '2',
-//   },
-//   {
-//     dataSource: areaChartData[1],
-//     xName: 'x',
-//     yName: 'y',
-//     name: 'France',
-//     opacity: '0.8',
-//     type: 'SplineArea',
-//     width: '2',
-//   },
-//   {
-//     dataSource: areaChartData[2],
-//     xName: 'x',
-//     yName: 'y',
-//     name: 'Germany',
-//     opacity: '0.8',
-//     type: 'SplineArea',
-//     width: '2',
-//   },
-// ];
-
 export const barChartData = [
   { name: 'USA', Gold: 46, Silver: 37, Bronze: 38 },
   { name: 'GBR', Gold: 27, Silver: 23, Bronze: 17 },
   { name: 'CHN', Gold: 26, Silver: 18, Bronze: 26 },
 ];
 
-// export const barChartData = [
-//   [
-//     { name: 'USA', y: 46 },
-//     { x: 'GBR', y: 27 },
-//     { x: 'CHN', y: 26 },
-//   ],
-//   [
-//     { x: 'USA', y: 37 },
-//     { x: 'GBR', y: 23 },
-//     { x: 'CHN', y: 18 },
-//   ],
-//   [
-//     { x: 'USA', y: 38 },
-//     { x: 'GBR', y: 17 },
-//     { x: 'CHN', y: 26 },
-//   ],
-// ];
-
-// export const barCustomSeries = [
-//   {
-//     dataSource: barChartData[0],
-//     xName: 'x',
-//     yName: 'y',
-//     name: 'Gold',
-//     type: 'Column',
-//     marker: {
-//       dataLabel: {
-//         visible: true,
-//         position: 'Top',
-//         font: { fontWeight: '600', color: '#ffffff' },
-//       },
-//     },
-//   },
-//   {
-//     dataSource: barChartData[1],
-//     xName: 'x',
-//     yName: 'y',
-//     name: 'Silver',
-//     type: 'Column',
-//     marker: {
-//       dataLabel: {
-//         visible: true,
-//         position: 'Top',
-//         font: { fontWeight: '600', color: '#ffffff' },
-//       },
-//     },
-//   },
-//   {
-//     dataSource: barChartData[2],
-//     xName: 'x',
-//     yName: 'y',
-//     name: 'Bronze',
-//     type: 'Column',
-//     marker: {
-//       dataLabel: {
-//         visible: true,
-//         position: 'Top',
-//         font: { fontWeight: '600', color: '#ffffff' },
-//       },
-//     },
-//   },
-// ];
 export const colorMappingData = [
   { name: 'Jan', Temperature: 6.96 },
   { name: 'Feb', Temperature: 8.9 },
@@ -442,38 +274,6 @@ export const colorMappingData = [
   { name: 'Nov', Temperature: 15.5 },
   { name: 'Dec', Temperature: 9.9 },
 ];
-
-// export const rangeColorMapping = [
-//   { label: '1°C to 10°C', start: '1', end: '10', colors: colorMappingData[1] },
-
-//   {
-//     label: '11°C to 20°C',
-//     start: '11',
-//     end: '20',
-//     colors: colorMappingData[2],
-//   },
-
-//   {
-//     label: '21°C to 30°C',
-//     start: '21',
-//     end: '30',
-//     colors: colorMappingData[3],
-//   },
-// ];
-
-// export const ColorMappingPrimaryXAxis = {
-//   valueType: 'Category',
-//   majorGridLines: { width: 0 },
-//   title: 'Months',
-// };
-
-// export const ColorMappingPrimaryYAxis = {
-//   lineStyle: { width: 0 },
-//   majorTickLines: { width: 0 },
-//   minorTickLines: { width: 0 },
-//   labelFormat: '{value}°C',
-//   title: 'Temperature',
-// };
 
 export const FinancialPrimaryXAxis = {
   valueType: 'DateTime',
@@ -986,56 +786,6 @@ export const userProfileData = [
     desc: 'To-do and Daily Tasks',
     iconColor: 'rgb(255, 244, 229)',
     iconBg: 'rgb(254, 201, 15)',
-  },
-];
-
-export const ordersGrid = [
-  {
-    headerText: 'Image',
-    template: gridOrderImage,
-    textAlign: 'Center',
-    width: '120',
-  },
-  {
-    field: 'OrderItems',
-    headerText: 'Item',
-    width: '150',
-    editType: 'dropdownedit',
-    textAlign: 'Center',
-  },
-  {
-    field: 'CustomerName',
-    headerText: 'Customer Name',
-    width: '150',
-    textAlign: 'Center',
-  },
-  {
-    field: 'TotalAmount',
-    headerText: 'Total Amount',
-    format: 'C2',
-    textAlign: 'Center',
-    editType: 'numericedit',
-    width: '150',
-  },
-  {
-    headerText: 'Status',
-    template: gridOrderStatus,
-    field: 'OrderItems',
-    textAlign: 'Center',
-    width: '120',
-  },
-  {
-    field: 'OrderID',
-    headerText: 'Order ID',
-    width: '120',
-    textAlign: 'Center',
-  },
-
-  {
-    field: 'Location',
-    headerText: 'Location',
-    width: '150',
-    textAlign: 'Center',
   },
 ];
 
@@ -2132,9 +1882,8 @@ export const employeesData = [
 
 export const ordersData = [
   {
-    OrderID: 10248,
+    OrderID: 102481,
     CustomerName: 'Vinet',
-
     TotalAmount: 32.38,
     OrderItems: 'Fresh Tomato',
     Location: 'USA',
@@ -2143,7 +1892,7 @@ export const ordersData = [
     ProductImage: product6,
   },
   {
-    OrderID: 345653,
+    OrderID: 3456531,
     CustomerName: 'Carson Darrin',
     TotalAmount: 56.34,
     OrderItems: 'Butter Scotch',
@@ -2153,7 +1902,7 @@ export const ordersData = [
     ProductImage: product5,
   },
   {
-    OrderID: 390457,
+    OrderID: 3904571,
     CustomerName: 'Fran Perez',
     TotalAmount: 93.31,
     OrderItems: 'Candy Gucci',
@@ -2163,7 +1912,7 @@ export const ordersData = [
     ProductImage: product7,
   },
   {
-    OrderID: 893486,
+    OrderID: 8934861,
     CustomerName: 'Anika Viseer',
     TotalAmount: 93.31,
     OrderItems: 'Night Lamp',
@@ -2173,7 +1922,7 @@ export const ordersData = [
     ProductImage: product4,
   },
   {
-    OrderID: 748975,
+    OrderID: 7489751,
     CustomerName: 'Miron Vitold',
     TotalAmount: 23.99,
     OrderItems: 'Healthcare Erbology',
@@ -2183,7 +1932,7 @@ export const ordersData = [
     ProductImage: product1,
   },
   {
-    OrderID: 94757,
+    OrderID: 947570,
     CustomerName: 'Omar Darobe',
     TotalAmount: 95.99,
     OrderItems: 'Makeup Lancome Rouge',
@@ -2193,7 +1942,7 @@ export const ordersData = [
     ProductImage: product2,
   },
   {
-    OrderID: 944895,
+    OrderID: 9448950,
     CustomerName: 'Lulia albu',
     TotalAmount: 17.99,
     OrderItems: 'Skincare',
@@ -2213,7 +1962,7 @@ export const ordersData = [
     ProductImage: product4,
   },
   {
-    OrderID: 845954,
+    OrderID: 845955,
     CustomerName: 'Jie Yan',
     TotalAmount: 87.99,
     OrderItems: 'Shoes',
@@ -2224,7 +1973,7 @@ export const ordersData = [
       'https://cdn.shopclues.com/images1/thumbnails/104158/320/320/148648730-104158193-1592481791.jpg',
   },
   {
-    OrderID: 874534,
+    OrderID: 8745344,
     CustomerName: 'Danai',
     TotalAmount: 122.99,
     OrderItems: 'Watch',
@@ -2235,7 +1984,7 @@ export const ordersData = [
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
   },
   {
-    OrderID: 38489,
+    OrderID: 384890,
     CustomerName: 'Miron',
     TotalAmount: 87.99,
     OrderItems: 'Ice Cream',
@@ -2246,7 +1995,7 @@ export const ordersData = [
       'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/dairy-free-ice-cream-eae372d.jpg',
   },
   {
-    OrderID: 24546,
+    OrderID: 245460,
     CustomerName: 'Frank',
     TotalAmount: 84.99,
     OrderItems: 'Pan Cake',
@@ -2257,7 +2006,7 @@ export const ordersData = [
       'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80',
   },
   {
-    OrderID: 874534,
+    OrderID: 8745345,
     CustomerName: 'Danai',
     TotalAmount: 122.99,
     OrderItems: 'Watch',
@@ -2268,7 +2017,7 @@ export const ordersData = [
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
   },
   {
-    OrderID: 10248,
+    OrderID: 102482,
     CustomerName: 'Vinet',
 
     TotalAmount: 32.38,
@@ -2279,7 +2028,7 @@ export const ordersData = [
     ProductImage: product6,
   },
   {
-    OrderID: 345653,
+    OrderID: 3456532,
     CustomerName: 'Carson Darrin',
     TotalAmount: 56.34,
     OrderItems: 'Butter Scotch',
@@ -2289,7 +2038,7 @@ export const ordersData = [
     ProductImage: product5,
   },
   {
-    OrderID: 390457,
+    OrderID: 3904572,
     CustomerName: 'Fran Perez',
     TotalAmount: 93.31,
     OrderItems: 'Candy Gucci',
@@ -2299,7 +2048,7 @@ export const ordersData = [
     ProductImage: product7,
   },
   {
-    OrderID: 893486,
+    OrderID: 8934862,
     CustomerName: 'Anika Viseer',
     TotalAmount: 93.31,
     OrderItems: 'Night Lamp',
@@ -2309,7 +2058,7 @@ export const ordersData = [
     ProductImage: product4,
   },
   {
-    OrderID: 748975,
+    OrderID: 7489752,
     CustomerName: 'Miron Vitold',
     TotalAmount: 23.99,
     OrderItems: 'Healthcare Erbology',
@@ -2319,7 +2068,7 @@ export const ordersData = [
     ProductImage: product1,
   },
   {
-    OrderID: 94757,
+    OrderID: 947571,
     CustomerName: 'Omar Darobe',
     TotalAmount: 95.99,
     OrderItems: 'Makeup Lancome Rouge',
@@ -2329,7 +2078,7 @@ export const ordersData = [
     ProductImage: product2,
   },
   {
-    OrderID: 944895,
+    OrderID: 9448951,
     CustomerName: 'Lulia albu',
     TotalAmount: 17.99,
     OrderItems: 'Skincare',
@@ -2339,7 +2088,7 @@ export const ordersData = [
     ProductImage: product3,
   },
   {
-    OrderID: 845954,
+    OrderID: 845956,
     CustomerName: 'Penjani',
     TotalAmount: 59.99,
     OrderItems: 'Headphone',
@@ -2349,7 +2098,7 @@ export const ordersData = [
     ProductImage: product4,
   },
   {
-    OrderID: 845954,
+    OrderID: 845957,
     CustomerName: 'Jie Yan',
     TotalAmount: 87.99,
     OrderItems: 'Shoes',
@@ -2360,7 +2109,7 @@ export const ordersData = [
       'https://cdn.shopclues.com/images1/thumbnails/104158/320/320/148648730-104158193-1592481791.jpg',
   },
   {
-    OrderID: 874534,
+    OrderID: 8745346,
     CustomerName: 'Danai',
     TotalAmount: 122.99,
     OrderItems: 'Watch',
@@ -2371,7 +2120,7 @@ export const ordersData = [
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
   },
   {
-    OrderID: 38489,
+    OrderID: 384891,
     CustomerName: 'Miron',
     TotalAmount: 87.99,
     OrderItems: 'Ice Cream',
@@ -2382,7 +2131,7 @@ export const ordersData = [
       'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/dairy-free-ice-cream-eae372d.jpg',
   },
   {
-    OrderID: 24546,
+    OrderID: 245461,
     CustomerName: 'Frank',
     TotalAmount: 84.99,
     OrderItems: 'Pan Cake',
@@ -2393,7 +2142,7 @@ export const ordersData = [
       'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80',
   },
   {
-    OrderID: 874534,
+    OrderID: 8745347,
     CustomerName: 'Danai',
     TotalAmount: 122.99,
     OrderItems: 'Watch',
@@ -2404,7 +2153,7 @@ export const ordersData = [
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
   },
   {
-    OrderID: 10248,
+    OrderID: 102483,
     CustomerName: 'Vinet',
 
     TotalAmount: 32.38,
@@ -2415,7 +2164,7 @@ export const ordersData = [
     ProductImage: product6,
   },
   {
-    OrderID: 345653,
+    OrderID: 3456533,
     CustomerName: 'Carson Darrin',
     TotalAmount: 56.34,
     OrderItems: 'Butter Scotch',
@@ -2425,7 +2174,7 @@ export const ordersData = [
     ProductImage: product5,
   },
   {
-    OrderID: 390457,
+    OrderID: 3904573,
     CustomerName: 'Fran Perez',
     TotalAmount: 93.31,
     OrderItems: 'Candy Gucci',
@@ -2435,7 +2184,7 @@ export const ordersData = [
     ProductImage: product7,
   },
   {
-    OrderID: 893486,
+    OrderID: 8934863,
     CustomerName: 'Anika Viseer',
     TotalAmount: 93.31,
     OrderItems: 'Night Lamp',
@@ -2445,7 +2194,7 @@ export const ordersData = [
     ProductImage: product4,
   },
   {
-    OrderID: 748975,
+    OrderID: 7489753,
     CustomerName: 'Miron Vitold',
     TotalAmount: 23.99,
     OrderItems: 'Healthcare Erbology',
@@ -2455,7 +2204,7 @@ export const ordersData = [
     ProductImage: product1,
   },
   {
-    OrderID: 94757,
+    OrderID: 947572,
     CustomerName: 'Omar Darobe',
     TotalAmount: 95.99,
     OrderItems: 'Makeup Lancome Rouge',
@@ -2465,7 +2214,7 @@ export const ordersData = [
     ProductImage: product2,
   },
   {
-    OrderID: 944895,
+    OrderID: 9448952,
     CustomerName: 'Lulia albu',
     TotalAmount: 17.99,
     OrderItems: 'Skincare',
@@ -2475,7 +2224,7 @@ export const ordersData = [
     ProductImage: product3,
   },
   {
-    OrderID: 845954,
+    OrderID: 845958,
     CustomerName: 'Penjani',
     TotalAmount: 59.99,
     OrderItems: 'Headphone',
@@ -2485,7 +2234,7 @@ export const ordersData = [
     ProductImage: product4,
   },
   {
-    OrderID: 845954,
+    OrderID: 845959,
     CustomerName: 'Jie Yan',
     TotalAmount: 87.99,
     OrderItems: 'Shoes',
@@ -2496,7 +2245,7 @@ export const ordersData = [
       'https://cdn.shopclues.com/images1/thumbnails/104158/320/320/148648730-104158193-1592481791.jpg',
   },
   {
-    OrderID: 874534,
+    OrderID: 8745348,
     CustomerName: 'Danai',
     TotalAmount: 122.99,
     OrderItems: 'Watch',
@@ -2507,7 +2256,7 @@ export const ordersData = [
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
   },
   {
-    OrderID: 38489,
+    OrderID: 384892,
     CustomerName: 'Miron',
     TotalAmount: 87.99,
     OrderItems: 'Ice Cream',
@@ -2518,7 +2267,7 @@ export const ordersData = [
       'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/dairy-free-ice-cream-eae372d.jpg',
   },
   {
-    OrderID: 24546,
+    OrderID: 245462,
     CustomerName: 'Frank',
     TotalAmount: 84.99,
     OrderItems: 'Pan Cake',
@@ -2529,7 +2278,7 @@ export const ordersData = [
       'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80',
   },
   {
-    OrderID: 874534,
+    OrderID: 8745349,
     CustomerName: 'Danai',
     TotalAmount: 122.99,
     OrderItems: 'Watch',
@@ -2540,7 +2289,7 @@ export const ordersData = [
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
   },
   {
-    OrderID: 10248,
+    OrderID: 102484,
     CustomerName: 'Vinet',
 
     TotalAmount: 32.38,
@@ -2551,7 +2300,7 @@ export const ordersData = [
     ProductImage: product6,
   },
   {
-    OrderID: 345653,
+    OrderID: 3456534,
     CustomerName: 'Carson Darrin',
     TotalAmount: 56.34,
     OrderItems: 'Butter Scotch',
@@ -2561,7 +2310,7 @@ export const ordersData = [
     ProductImage: product5,
   },
   {
-    OrderID: 390457,
+    OrderID: 3904574,
     CustomerName: 'Fran Perez',
     TotalAmount: 93.31,
     OrderItems: 'Candy Gucci',
@@ -2571,7 +2320,7 @@ export const ordersData = [
     ProductImage: product7,
   },
   {
-    OrderID: 893486,
+    OrderID: 8934864,
     CustomerName: 'Anika Viseer',
     TotalAmount: 93.31,
     OrderItems: 'Night Lamp',
@@ -2581,7 +2330,7 @@ export const ordersData = [
     ProductImage: product4,
   },
   {
-    OrderID: 748975,
+    OrderID: 7489754,
     CustomerName: 'Miron Vitold',
     TotalAmount: 23.99,
     OrderItems: 'Healthcare Erbology',
@@ -2591,7 +2340,7 @@ export const ordersData = [
     ProductImage: product1,
   },
   {
-    OrderID: 94757,
+    OrderID: 947573,
     CustomerName: 'Omar Darobe',
     TotalAmount: 95.99,
     OrderItems: 'Makeup Lancome Rouge',
@@ -2601,7 +2350,7 @@ export const ordersData = [
     ProductImage: product2,
   },
   {
-    OrderID: 944895,
+    OrderID: 9448953,
     CustomerName: 'Lulia albu',
     TotalAmount: 17.99,
     OrderItems: 'Skincare',
@@ -2611,7 +2360,7 @@ export const ordersData = [
     ProductImage: product3,
   },
   {
-    OrderID: 845954,
+    OrderID: 84600,
     CustomerName: 'Penjani',
     TotalAmount: 59.99,
     OrderItems: 'Headphone',
@@ -2621,7 +2370,7 @@ export const ordersData = [
     ProductImage: product4,
   },
   {
-    OrderID: 845954,
+    OrderID: 84601,
     CustomerName: 'Jie Yan',
     TotalAmount: 87.99,
     OrderItems: 'Shoes',
@@ -2632,7 +2381,7 @@ export const ordersData = [
       'https://cdn.shopclues.com/images1/thumbnails/104158/320/320/148648730-104158193-1592481791.jpg',
   },
   {
-    OrderID: 874534,
+    OrderID: 87453410,
     CustomerName: 'Danai',
     TotalAmount: 122.99,
     OrderItems: 'Watch',
@@ -2643,7 +2392,7 @@ export const ordersData = [
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
   },
   {
-    OrderID: 38489,
+    OrderID: 384893,
     CustomerName: 'Miron',
     TotalAmount: 87.99,
     OrderItems: 'Ice Cream',
@@ -2654,7 +2403,7 @@ export const ordersData = [
       'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/dairy-free-ice-cream-eae372d.jpg',
   },
   {
-    OrderID: 24546,
+    OrderID: 245463,
     CustomerName: 'Frank',
     TotalAmount: 84.99,
     OrderItems: 'Pan Cake',
@@ -2665,7 +2414,7 @@ export const ordersData = [
       'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80',
   },
   {
-    OrderID: 874534,
+    OrderID: 8745342,
     CustomerName: 'Danai',
     TotalAmount: 122.99,
     OrderItems: 'Watch',
@@ -2676,7 +2425,7 @@ export const ordersData = [
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
   },
   {
-    OrderID: 10248,
+    OrderID: 102485,
     CustomerName: 'Vinet',
 
     TotalAmount: 32.38,
@@ -2687,7 +2436,7 @@ export const ordersData = [
     ProductImage: product6,
   },
   {
-    OrderID: 345653,
+    OrderID: 3456535,
     CustomerName: 'Carson Darrin',
     TotalAmount: 56.34,
     OrderItems: 'Butter Scotch',
@@ -2697,7 +2446,7 @@ export const ordersData = [
     ProductImage: product5,
   },
   {
-    OrderID: 390457,
+    OrderID: 3904575,
     CustomerName: 'Fran Perez',
     TotalAmount: 93.31,
     OrderItems: 'Candy Gucci',
@@ -2707,7 +2456,7 @@ export const ordersData = [
     ProductImage: product7,
   },
   {
-    OrderID: 893486,
+    OrderID: 8934865,
     CustomerName: 'Anika Viseer',
     TotalAmount: 93.31,
     OrderItems: 'Night Lamp',
@@ -2717,7 +2466,7 @@ export const ordersData = [
     ProductImage: product4,
   },
   {
-    OrderID: 748975,
+    OrderID: 7489755,
     CustomerName: 'Miron Vitold',
     TotalAmount: 23.99,
     OrderItems: 'Healthcare Erbology',
@@ -2727,7 +2476,7 @@ export const ordersData = [
     ProductImage: product1,
   },
   {
-    OrderID: 94757,
+    OrderID: 947574,
     CustomerName: 'Omar Darobe',
     TotalAmount: 95.99,
     OrderItems: 'Makeup Lancome Rouge',
@@ -2737,7 +2486,7 @@ export const ordersData = [
     ProductImage: product2,
   },
   {
-    OrderID: 944895,
+    OrderID: 9448954,
     CustomerName: 'Lulia albu',
     TotalAmount: 17.99,
     OrderItems: 'Skincare',
@@ -2747,7 +2496,7 @@ export const ordersData = [
     ProductImage: product3,
   },
   {
-    OrderID: 845954,
+    OrderID: 846001,
     CustomerName: 'Penjani',
     TotalAmount: 59.99,
     OrderItems: 'Headphone',
@@ -2757,7 +2506,7 @@ export const ordersData = [
     ProductImage: product4,
   },
   {
-    OrderID: 845954,
+    OrderID: 846002,
     CustomerName: 'Jie Yan',
     TotalAmount: 87.99,
     OrderItems: 'Shoes',
@@ -2768,7 +2517,7 @@ export const ordersData = [
       'https://cdn.shopclues.com/images1/thumbnails/104158/320/320/148648730-104158193-1592481791.jpg',
   },
   {
-    OrderID: 874534,
+    OrderID: 8745341,
     CustomerName: 'Danai',
     TotalAmount: 122.99,
     OrderItems: 'Watch',
@@ -2779,7 +2528,7 @@ export const ordersData = [
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
   },
   {
-    OrderID: 38489,
+    OrderID: 384894,
     CustomerName: 'Miron',
     TotalAmount: 87.99,
     OrderItems: 'Ice Cream',
@@ -2790,7 +2539,7 @@ export const ordersData = [
       'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/dairy-free-ice-cream-eae372d.jpg',
   },
   {
-    OrderID: 24546,
+    OrderID: 245464,
     CustomerName: 'Frank',
     TotalAmount: 84.99,
     OrderItems: 'Pan Cake',
@@ -2801,7 +2550,7 @@ export const ordersData = [
       'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80',
   },
   {
-    OrderID: 874534,
+    OrderID: 8745343,
     CustomerName: 'Danai',
     TotalAmount: 122.99,
     OrderItems: 'Watch',
@@ -3017,6 +2766,7 @@ export const lineChartData = [
   { label: '2010', Germany: 57, England: 78, India: 70 },
   { label: '2011', Germany: 70, England: 84, India: 100 },
 ];
+
 export const dropdownData = [
   {
     Id: '1',
@@ -3031,6 +2781,7 @@ export const dropdownData = [
     Time: 'May 2021',
   },
 ];
+
 export const SparklineAreaData = [
   { x: 1, yval: 2 },
   { x: 2, yval: 6 },
@@ -3038,38 +2789,6 @@ export const SparklineAreaData = [
   { x: 4, yval: 5 },
   { x: 5, yval: 10 },
 ];
-
-// export const lineCustomSeries = [
-//   {
-//     dataSource: lineChartData[0],
-//     xName: 'x',
-//     yName: 'y',
-//     name: 'Germany',
-//     width: '2',
-//     marker: { visible: true, width: 10, height: 10 },
-//     type: 'Line',
-//   },
-
-//   {
-//     dataSource: lineChartData[1],
-//     xName: 'x',
-//     yName: 'y',
-//     name: 'England',
-//     width: '2',
-//     marker: { visible: true, width: 10, height: 10 },
-//     type: 'Line',
-//   },
-
-//   {
-//     dataSource: lineChartData[2],
-//     xName: 'x',
-//     yName: 'y',
-//     name: 'India',
-//     width: '2',
-//     marker: { visible: true, width: 10, height: 10 },
-//     type: 'Line',
-//   },
-// ];
 
 export const pieChartData = [
   { name: 'Labour', value: 18 },
@@ -3079,25 +2798,6 @@ export const pieChartData = [
   { name: 'Facilities', value: 18 },
   { name: 'Taxes', value: 14 },
   { name: 'Insurance', value: 16 },
-];
-
-export const contextMenuItems = [
-  'AutoFit',
-  'AutoFitAll',
-  'SortAscending',
-  'SortDescending',
-  'Copy',
-  'Edit',
-  'Delete',
-  'Save',
-  'Cancel',
-  'PdfExport',
-  'ExcelExport',
-  'CsvExport',
-  'FirstPage',
-  'PrevPage',
-  'LastPage',
-  'NextPage',
 ];
 
 export const ecomPieChartData = [
@@ -3116,402 +2816,6 @@ export const stackedChartData = [
   { label: 'Jun', Budget: 159.9, Expense: 119.9 },
   { label: 'July', Budget: 159.9, Expense: 151.9 },
 ];
-
-// export const stackedCustomSeries = [
-//   {
-//     dataSource: stackedChartData[0],
-//     xName: 'x',
-//     yName: 'y',
-//     name: 'Budget',
-//     type: 'StackingColumn',
-//     background: 'blue',
-//   },
-
-//   {
-//     dataSource: stackedChartData[1],
-//     xName: 'x',
-//     yName: 'y',
-//     name: 'Expense',
-//     type: 'StackingColumn',
-//     background: 'red',
-//   },
-// ];
-
-// export const stackedPrimaryXAxis = {
-//   majorGridLines: { width: 0 },
-//   minorGridLines: { width: 0 },
-//   majorTickLines: { width: 0 },
-//   minorTickLines: { width: 0 },
-//   interval: 1,
-//   lineStyle: { width: 0 },
-//   labelIntersectAction: 'Rotate45',
-//   valueType: 'Category',
-// };
-
-// export const stackedPrimaryYAxis = {
-//   lineStyle: { width: 0 },
-//   minimum: 100,
-//   maximum: 400,
-//   interval: 100,
-//   majorTickLines: { width: 0 },
-//   majorGridLines: { width: 1 },
-//   minorGridLines: { width: 1 },
-//   minorTickLines: { width: 0 },
-//   labelFormat: '{value}',
-// };
-
-// export const kanbanData = [
-//   {
-//     Id: 'Task 1',
-//     Title: 'Task - 29001',
-//     Status: 'Open',
-//     Summary: 'Analyze the new requirements gathered from the customer.',
-//     Type: 'Story',
-//     Priority: 'Low',
-//     Tags: 'Analyze,Customer',
-//     Estimate: 3.5,
-//     Assignee: 'Nancy Davloio',
-//     RankId: 1,
-//     Color: '#02897B',
-//     ClassName: 'e-story, e-low, e-nancy-davloio',
-//   },
-//   {
-//     Id: 'Task 2',
-//     Title: 'Task - 29002',
-//     Status: 'InProgress',
-//     Summary: 'Improve application performance',
-//     Type: 'Improvement',
-//     Priority: 'Normal',
-//     Tags: 'Improvement',
-//     Estimate: 6,
-//     Assignee: 'Andrew Fuller',
-//     RankId: 1,
-//     Color: '#673AB8',
-//     ClassName: 'e-improvement, e-normal, e-andrew-fuller',
-//   },
-//   {
-//     Id: 'Task 3',
-//     Title: 'Task - 29003',
-//     Status: 'Open',
-//     Summary: 'Arrange a web meeting with the customer to get new requirements.',
-//     Type: 'Others',
-//     Priority: 'Critical',
-//     Tags: 'Meeting',
-//     Estimate: 5.5,
-//     Assignee: 'Janet Leverling',
-//     RankId: 2,
-//     Color: '#1F88E5',
-//     ClassName: 'e-others, e-critical, e-janet-leverling',
-//   },
-//   {
-//     Id: 'Task 4',
-//     Title: 'Task - 29004',
-//     Status: 'InProgress',
-//     Summary: 'Fix the issues reported in the IE browser.',
-//     Type: 'Bug',
-//     Priority: 'Critical',
-//     Tags: 'IE',
-//     Estimate: 2.5,
-//     Assignee: 'Janet Leverling',
-//     RankId: 2,
-//     Color: '#E64A19',
-//     ClassName: 'e-bug, e-release, e-janet-leverling',
-//   },
-//   {
-//     Id: 'Task 5',
-//     Title: 'Task - 29005',
-//     Status: 'Review',
-//     Summary: 'Fix the issues reported by the customer.',
-//     Type: 'Bug',
-//     Priority: 'Low',
-//     Tags: 'Customer',
-//     Estimate: '3.5',
-//     Assignee: 'Steven walker',
-//     RankId: 1,
-//     Color: '#E64A19',
-//     ClassName: 'e-bug, e-low, e-steven-walker',
-//   },
-//   {
-//     Id: 'Task 6',
-//     Title: 'Task - 29007',
-//     Status: 'Validate',
-//     Summary: 'Validate new requirements',
-//     Type: 'Improvement',
-//     Priority: 'Low',
-//     Tags: 'Validation',
-//     Estimate: 1.5,
-//     Assignee: 'Robert King',
-//     RankId: 1,
-//     Color: '#673AB8',
-//     ClassName: 'e-improvement, e-low, e-robert-king',
-//   },
-//   {
-//     Id: 'Task 7',
-//     Title: 'Task - 29009',
-//     Status: 'Review',
-//     Summary: 'Fix the issues reported in Safari browser.',
-//     Type: 'Bug',
-//     Priority: 'Critical',
-//     Tags: 'Fix,Safari',
-//     Estimate: 1.5,
-//     Assignee: 'Nancy Davloio',
-//     RankId: 2,
-//     Color: '#E64A19',
-//     ClassName: 'e-bug, e-release, e-nancy-davloio',
-//   },
-//   {
-//     Id: 'Task 8',
-//     Title: 'Task - 29010',
-//     Status: 'Close',
-//     Summary: 'Test the application in the IE browser.',
-//     Type: 'Story',
-//     Priority: 'Low',
-//     Tags: 'Review,IE',
-//     Estimate: 5.5,
-//     Assignee: 'Margaret hamilt',
-//     RankId: 3,
-//     Color: '#02897B',
-//     ClassName: 'e-story, e-low, e-margaret-hamilt',
-//   },
-//   {
-//     Id: 'Task 9',
-//     Title: 'Task - 29011',
-//     Status: 'Validate',
-//     Summary: 'Validate the issues reported by the customer.',
-//     Type: 'Story',
-//     Priority: 'High',
-//     Tags: 'Validation,Fix',
-//     Estimate: 1,
-//     Assignee: 'Steven walker',
-//     RankId: 1,
-//     Color: '#02897B',
-//     ClassName: 'e-story, e-high, e-steven-walker',
-//   },
-//   {
-//     Id: 'Task 10',
-//     Title: 'Task - 29015',
-//     Status: 'Open',
-//     Summary: 'Show the retrieved data from the server in grid control.',
-//     Type: 'Story',
-//     Priority: 'High',
-//     Tags: 'Database,SQL',
-//     Estimate: 5.5,
-//     Assignee: 'Margaret hamilt',
-//     RankId: 4,
-//     Color: '#02897B',
-//     ClassName: 'e-story, e-high, e-margaret-hamilt',
-//   },
-//   {
-//     Id: 'Task 11',
-//     Title: 'Task - 29016',
-//     Status: 'InProgress',
-//     Summary: 'Fix cannot open user’s default database SQL error.',
-//     Priority: 'Critical',
-//     Type: 'Bug',
-//     Tags: 'Database,Sql2008',
-//     Estimate: 2.5,
-//     Assignee: 'Janet Leverling',
-//     RankId: 4,
-//     Color: '#E64A19',
-//     ClassName: 'e-bug, e-critical, e-janet-leverling',
-//   },
-//   {
-//     Id: 'Task 12',
-//     Title: 'Task - 29017',
-//     Status: 'Review',
-//     Summary: 'Fix the issues reported in data binding.',
-//     Type: 'Story',
-//     Priority: 'Normal',
-//     Tags: 'Databinding',
-//     Estimate: '3.5',
-//     Assignee: 'Janet Leverling',
-//     RankId: 4,
-//     Color: '#02897B',
-//     ClassName: 'e-story, e-normal, e-janet-leverling',
-//   },
-//   {
-//     Id: 'Task 13',
-//     Title: 'Task - 29018',
-//     Status: 'Close',
-//     Summary: 'Analyze SQL server 2008 connection.',
-//     Type: 'Story',
-//     Priority: 'Critical',
-//     Tags: 'Grid,Sql',
-//     Estimate: 2,
-//     Assignee: 'Andrew Fuller',
-//     RankId: 4,
-//     Color: '#02897B',
-//     ClassName: 'e-story, e-release, e-andrew-fuller',
-//   },
-//   {
-//     Id: 'Task 14',
-//     Title: 'Task - 29019',
-//     Status: 'Validate',
-//     Summary: 'Validate databinding issues.',
-//     Type: 'Story',
-//     Priority: 'Low',
-//     Tags: 'Validation',
-//     Estimate: 1.5,
-//     Assignee: 'Margaret hamilt',
-//     RankId: 1,
-//     Color: '#02897B',
-//     ClassName: 'e-story, e-low, e-margaret-hamilt',
-//   },
-//   {
-//     Id: 'Task 15',
-//     Title: 'Task - 29020',
-//     Status: 'Close',
-//     Summary: 'Analyze grid control.',
-//     Type: 'Story',
-//     Priority: 'High',
-//     Tags: 'Analyze',
-//     Estimate: 2.5,
-//     Assignee: 'Margaret hamilt',
-//     RankId: 5,
-//     Color: '#02897B',
-//     ClassName: 'e-story, e-high, e-margaret-hamilt',
-//   },
-//   {
-//     Id: 'Task 16',
-//     Title: 'Task - 29021',
-//     Status: 'Close',
-//     Summary: 'Stored procedure for initial data binding of the grid.',
-//     Type: 'Others',
-//     Priority: 'Critical',
-//     Tags: 'Databinding',
-//     Estimate: 1.5,
-//     Assignee: 'Steven walker',
-//     RankId: 6,
-//     Color: '#1F88E5',
-//     ClassName: 'e-others, e-release, e-steven-walker',
-//   },
-//   {
-//     Id: 'Task 17',
-//     Title: 'Task - 29022',
-//     Status: 'Close',
-//     Summary: 'Analyze stored procedures.',
-//     Type: 'Story',
-//     Priority: 'Critical',
-//     Tags: 'Procedures',
-//     Estimate: 5.5,
-//     Assignee: 'Janet Leverling',
-//     RankId: 7,
-//     Color: '#02897B',
-//     ClassName: 'e-story, e-release, e-janet-leverling',
-//   },
-//   {
-//     Id: 'Task 18',
-//     Title: 'Task - 29023',
-//     Status: 'Validate',
-//     Summary: 'Validate editing issues.',
-//     Type: 'Story',
-//     Priority: 'Critical',
-//     Tags: 'Editing',
-//     Estimate: 1,
-//     Assignee: 'Nancy Davloio',
-//     RankId: 1,
-//     Color: '#02897B',
-//     ClassName: 'e-story, e-critical, e-nancy-davloio',
-//   },
-//   {
-//     Id: 'Task 19',
-//     Title: 'Task - 29024',
-//     Status: 'Review',
-//     Summary: 'Test editing functionality.',
-//     Type: 'Story',
-//     Priority: 'Normal',
-//     Tags: 'Editing,Test',
-//     Estimate: 0.5,
-//     Assignee: 'Nancy Davloio',
-//     RankId: 5,
-//     Color: '#02897B',
-//     ClassName: 'e-story, e-normal, e-nancy-davloio',
-//   },
-//   {
-//     Id: 'Task 20',
-//     Title: 'Task - 29025',
-//     Status: 'Open',
-//     Summary: 'Enhance editing functionality.',
-//     Type: 'Improvement',
-//     Priority: 'Low',
-//     Tags: 'Editing',
-//     Estimate: 3.5,
-//     Assignee: 'Andrew Fuller',
-//     RankId: 5,
-//     Color: '#673AB8',
-//     ClassName: 'e-improvement, e-low, e-andrew-fuller',
-//   },
-//   {
-//     Id: 'Task 21',
-//     Title: 'Task - 29026',
-//     Status: 'InProgress',
-//     Summary: 'Improve the performance of the editing functionality.',
-//     Type: 'Epic',
-//     Priority: 'High',
-//     Tags: 'Performance',
-//     Estimate: 6,
-//     Assignee: 'Nancy Davloio',
-//     RankId: 5,
-//     Color: '#e91e64',
-//     ClassName: 'e-epic, e-high, e-nancy-davloio',
-//   },
-//   {
-//     Id: 'Task 22',
-//     Title: 'Task - 29027',
-//     Status: 'Open',
-//     Summary: 'Arrange web meeting with the customer to show editing demo.',
-//     Type: 'Others',
-//     Priority: 'High',
-//     Tags: 'Meeting,Editing',
-//     Estimate: 5.5,
-//     Assignee: 'Steven walker',
-//     RankId: 6,
-//     Color: '#1F88E5',
-//     ClassName: 'e-others, e-high, e-steven-walker',
-//   },
-//   {
-//     Id: 'Task 23',
-//     Title: 'Task - 29029',
-//     Status: 'Review',
-//     Summary: 'Fix the editing issues reported by the customer.',
-//     Type: 'Bug',
-//     Priority: 'Low',
-//     Tags: 'Editing,Fix',
-//     Estimate: '3.5',
-//     Assignee: 'Janet Leverling',
-//     RankId: 6,
-//     Color: '#E64A19',
-//     ClassName: 'e-bug, e-low, e-janet-leverling',
-//   },
-//   {
-//     Id: 'Task 24',
-//     Title: 'Task - 29030',
-//     Status: 'Testing',
-//     Summary: 'Fix the issues reported by the customer.',
-//     Type: 'Bug',
-//     Priority: 'Critical',
-//     Tags: 'Customer',
-//     Estimate: '3.5',
-//     Assignee: 'Steven walker',
-//     RankId: 1,
-//     Color: '#E64A19',
-//     ClassName: 'e-bug, e-critical, e-steven-walker',
-//   },
-//   {
-//     Id: 'Task 25',
-//     Title: 'Task - 29031',
-//     Status: 'Testing',
-//     Summary: 'Fix the issues reported in Safari browser.',
-//     Type: 'Bug',
-//     Priority: 'Critical',
-//     Tags: 'Fix,Safari',
-//     Estimate: 1.5,
-//     Assignee: 'Nancy Davloio',
-//     RankId: 2,
-//     Color: '#E64A19',
-//     ClassName: 'e-bug, e-release, e-nancy-davloio',
-//   },
-// ];
 
 export const financialChartData = [
   {
@@ -3774,6 +3078,7 @@ export const financialChartData = [
     close: 158.67,
   },
 ];
+
 export const FoodComparisonData = [
   { name: 'Sweet Treats', value: 120, fill: '#0088FE' },
   { name: 'Milk, Youghnut, Cheese', value: 435, fill: '#00C49F' },
