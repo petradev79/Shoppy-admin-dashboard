@@ -791,7 +791,7 @@ export const userProfileData = [
 
 export const customersData = [
   {
-    CustomerID: 1001,
+    id: 1001,
     CustomerName: 'Nirav Joshi',
     CustomerEmail: 'nirav@gmail.com',
     CustomerImage: avatar2,
@@ -803,7 +803,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1002,
+    id: 1002,
 
     CustomerName: 'Sunil Joshi',
     CustomerEmail: 'sunil@gmail.com',
@@ -817,7 +817,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1003,
+    id: 1003,
 
     CustomerName: 'Andrew McDownland',
     CustomerEmail: 'andrew@gmail.com',
@@ -830,7 +830,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1004,
+    id: 1004,
 
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
@@ -843,7 +843,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1005,
+    id: 1005,
 
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
@@ -856,7 +856,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1006,
+    id: 1006,
     CustomerName: 'Nirav Joshi',
     CustomerEmail: 'nirav@gmail.com',
     CustomerImage: avatar2,
@@ -868,7 +868,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1007,
+    id: 1007,
 
     CustomerName: 'Sunil Joshi',
     CustomerEmail: 'sunil@gmail.com',
@@ -882,7 +882,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1008,
+    id: 1008,
 
     CustomerName: 'Andrew McDownland',
     CustomerEmail: 'andrew@gmail.com',
@@ -895,7 +895,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1009,
+    id: 1009,
 
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
@@ -908,7 +908,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1010,
+    id: 1010,
 
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
@@ -921,7 +921,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1011,
+    id: 1011,
     CustomerName: 'Nirav Joshi',
     CustomerEmail: 'nirav@gmail.com',
     CustomerImage: avatar2,
@@ -933,7 +933,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1012,
+    id: 1012,
 
     CustomerName: 'Sunil Joshi',
     CustomerEmail: 'sunil@gmail.com',
@@ -947,7 +947,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1013,
+    id: 1013,
 
     CustomerName: 'Andrew McDownland',
     CustomerEmail: 'andrew@gmail.com',
@@ -960,7 +960,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1014,
+    id: 1014,
 
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
@@ -973,7 +973,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1015,
+    id: 1015,
 
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
@@ -986,7 +986,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1016,
+    id: 1016,
     CustomerName: 'Nirav Joshi',
     CustomerEmail: 'nirav@gmail.com',
     CustomerImage: avatar2,
@@ -998,7 +998,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1017,
+    id: 1017,
 
     CustomerName: 'Sunil Joshi',
     CustomerEmail: 'sunil@gmail.com',
@@ -1012,7 +1012,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1018,
+    id: 1018,
 
     CustomerName: 'Andrew McDownland',
     CustomerEmail: 'andrew@gmail.com',
@@ -1025,7 +1025,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1019,
+    id: 1019,
 
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
@@ -1038,7 +1038,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1020,
+    id: 1020,
 
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
@@ -1051,7 +1051,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1021,
+    id: 1021,
     CustomerName: 'Nirav Joshi',
     CustomerEmail: 'nirav@gmail.com',
     CustomerImage: avatar2,
@@ -1063,7 +1063,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1022,
+    id: 1022,
 
     CustomerName: 'Sunil Joshi',
     CustomerEmail: 'sunil@gmail.com',
@@ -1077,7 +1077,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1023,
+    id: 1023,
 
     CustomerName: 'Andrew McDownland',
     CustomerEmail: 'andrew@gmail.com',
@@ -1090,7 +1090,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1024,
+    id: 1024,
 
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
@@ -1103,7 +1103,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1025,
+    id: 1025,
 
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
@@ -1116,7 +1116,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1026,
+    id: 1026,
     CustomerName: 'Nirav Joshi',
     CustomerEmail: 'nirav@gmail.com',
     CustomerImage: avatar2,
@@ -1128,7 +1128,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1027,
+    id: 1027,
 
     CustomerName: 'Sunil Joshi',
     CustomerEmail: 'sunil@gmail.com',
@@ -1142,7 +1142,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1028,
+    id: 1028,
 
     CustomerName: 'Andrew McDownland',
     CustomerEmail: 'andrew@gmail.com',
@@ -1155,7 +1155,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1029,
+    id: 1029,
 
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
@@ -1168,7 +1168,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1030,
+    id: 1030,
 
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
@@ -1181,7 +1181,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1031,
+    id: 1031,
     CustomerName: 'Nirav Joshi',
     CustomerEmail: 'nirav@gmail.com',
     CustomerImage: avatar2,
@@ -1193,7 +1193,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1032,
+    id: 1032,
 
     CustomerName: 'Sunil Joshi',
     CustomerEmail: 'sunil@gmail.com',
@@ -1207,7 +1207,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1033,
+    id: 1033,
 
     CustomerName: 'Andrew McDownland',
     CustomerEmail: 'andrew@gmail.com',
@@ -1220,7 +1220,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1034,
+    id: 1034,
 
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
@@ -1233,7 +1233,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1035,
+    id: 1035,
 
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
@@ -1246,7 +1246,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1036,
+    id: 1036,
     CustomerName: 'Nirav Joshi',
     CustomerEmail: 'nirav@gmail.com',
     CustomerImage: avatar2,
@@ -1258,7 +1258,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1037,
+    id: 1037,
 
     CustomerName: 'Sunil Joshi',
     CustomerEmail: 'sunil@gmail.com',
@@ -1272,7 +1272,7 @@ export const customersData = [
     Location: 'India',
   },
   {
-    CustomerID: 1038,
+    id: 1038,
 
     CustomerName: 'Andrew McDownland',
     CustomerEmail: 'andrew@gmail.com',
@@ -1285,7 +1285,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1039,
+    id: 1039,
     CustomerName: 'Christopher Jamil',
     CustomerEmail: 'jamil@gmail.com',
     ProjectName: 'MedicalPro WP Theme',
@@ -1297,7 +1297,7 @@ export const customersData = [
     Location: 'USA',
   },
   {
-    CustomerID: 1040,
+    id: 1040,
     CustomerName: 'Michael',
     CustomerEmail: 'michael@gmail.com',
     ProjectName: 'Weekly WP Theme',
@@ -1312,7 +1312,7 @@ export const customersData = [
 
 export const employeesData = [
   {
-    EmployeeID: 1,
+    id: 1,
     Name: 'Nancy Davolio',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
@@ -1321,7 +1321,7 @@ export const employeesData = [
     EmployeeImage: avatar3,
   },
   {
-    EmployeeID: 2,
+    id: 2,
     Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1330,7 +1330,7 @@ export const employeesData = [
     EmployeeImage: avatar3,
   },
   {
-    EmployeeID: 3,
+    id: 3,
     Name: 'Iulia Albu',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1339,7 +1339,7 @@ export const employeesData = [
     EmployeeImage: avatar4,
   },
   {
-    EmployeeID: 4,
+    id: 4,
     Name: 'Siegbert Gottfried',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1348,7 +1348,7 @@ export const employeesData = [
     EmployeeImage: avatar2,
   },
   {
-    EmployeeID: 5,
+    id: 5,
     Name: 'Omar Darobe',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1357,7 +1357,7 @@ export const employeesData = [
     EmployeeImage: avatar,
   },
   {
-    EmployeeID: 4,
+    id: 6,
     Name: 'Penjani Inyene',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1366,7 +1366,7 @@ export const employeesData = [
     EmployeeImage: avatar,
   },
   {
-    EmployeeID: 5,
+    id: 7,
     Name: 'Miron Vitold',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1375,7 +1375,7 @@ export const employeesData = [
     EmployeeImage: avatar2,
   },
   {
-    EmployeeID: 1,
+    id: 8,
     Name: 'Nancy Davolio',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
@@ -1384,7 +1384,7 @@ export const employeesData = [
     EmployeeImage: avatar2,
   },
   {
-    EmployeeID: 2,
+    id: 9,
     Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1393,7 +1393,7 @@ export const employeesData = [
     EmployeeImage: avatar3,
   },
   {
-    EmployeeID: 3,
+    id: 10,
     Name: 'Iulia Albu',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1402,7 +1402,7 @@ export const employeesData = [
     EmployeeImage: avatar4,
   },
   {
-    EmployeeID: 4,
+    id: 11,
     Name: 'Siegbert Gottfried',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1411,7 +1411,7 @@ export const employeesData = [
     EmployeeImage: avatar2,
   },
   {
-    EmployeeID: 5,
+    id: 12,
     Name: 'Omar Darobe',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1420,7 +1420,7 @@ export const employeesData = [
     EmployeeImage: avatar,
   },
   {
-    EmployeeID: 4,
+    id: 13,
     Name: 'Penjani Inyene',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1429,7 +1429,7 @@ export const employeesData = [
     EmployeeImage: avatar,
   },
   {
-    EmployeeID: 5,
+    id: 14,
     Name: 'Miron Vitold',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1438,7 +1438,7 @@ export const employeesData = [
     EmployeeImage: avatar2,
   },
   {
-    EmployeeID: 1,
+    id: 15,
     Name: 'Nancy Davolio',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
@@ -1447,7 +1447,7 @@ export const employeesData = [
     EmployeeImage: avatar,
   },
   {
-    EmployeeID: 2,
+    id: 16,
     Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1456,7 +1456,7 @@ export const employeesData = [
     EmployeeImage: avatar3,
   },
   {
-    EmployeeID: 3,
+    id: 17,
     Name: 'Iulia Albu',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1465,7 +1465,7 @@ export const employeesData = [
     EmployeeImage: avatar4,
   },
   {
-    EmployeeID: 4,
+    id: 18,
     Name: 'Siegbert Gottfried',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1474,7 +1474,7 @@ export const employeesData = [
     EmployeeImage: avatar2,
   },
   {
-    EmployeeID: 5,
+    id: 19,
     Name: 'Omar Darobe',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1483,7 +1483,7 @@ export const employeesData = [
     EmployeeImage: avatar,
   },
   {
-    EmployeeID: 4,
+    id: 20,
     Name: 'Penjani Inyene',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1492,7 +1492,7 @@ export const employeesData = [
     EmployeeImage: avatar,
   },
   {
-    EmployeeID: 5,
+    id: 21,
     Name: 'Miron Vitold',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1501,7 +1501,7 @@ export const employeesData = [
     EmployeeImage: avatar2,
   },
   {
-    EmployeeID: 1,
+    id: 22,
     Name: 'Nancy Davolio',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
@@ -1510,7 +1510,7 @@ export const employeesData = [
     EmployeeImage: avatar2,
   },
   {
-    EmployeeID: 2,
+    id: 23,
     Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1519,7 +1519,7 @@ export const employeesData = [
     EmployeeImage: avatar3,
   },
   {
-    EmployeeID: 3,
+    id: 24,
     Name: 'Iulia Albu',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1528,7 +1528,7 @@ export const employeesData = [
     EmployeeImage: avatar4,
   },
   {
-    EmployeeID: 4,
+    id: 25,
     Name: 'Siegbert Gottfried',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1537,7 +1537,7 @@ export const employeesData = [
     EmployeeImage: avatar2,
   },
   {
-    EmployeeID: 5,
+    id: 26,
     Name: 'Omar Darobe',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1546,7 +1546,7 @@ export const employeesData = [
     EmployeeImage: avatar,
   },
   {
-    EmployeeID: 4,
+    id: 27,
     Name: 'Penjani Inyene',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1555,7 +1555,7 @@ export const employeesData = [
     EmployeeImage: avatar,
   },
   {
-    EmployeeID: 5,
+    id: 28,
     Name: 'Miron Vitold',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1564,7 +1564,7 @@ export const employeesData = [
     EmployeeImage: avatar2,
   },
   {
-    EmployeeID: 1,
+    id: 29,
     Name: 'Nancy Davolio',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
@@ -1573,7 +1573,7 @@ export const employeesData = [
     EmployeeImage: avatar2,
   },
   {
-    EmployeeID: 2,
+    id: 30,
     Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1582,7 +1582,7 @@ export const employeesData = [
     EmployeeImage: avatar3,
   },
   {
-    EmployeeID: 3,
+    id: 31,
     Name: 'Iulia Albu',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1591,7 +1591,7 @@ export const employeesData = [
     EmployeeImage: avatar4,
   },
   {
-    EmployeeID: 4,
+    id: 32,
     Name: 'Siegbert Gottfried',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1600,7 +1600,7 @@ export const employeesData = [
     EmployeeImage: avatar2,
   },
   {
-    EmployeeID: 5,
+    id: 33,
     Name: 'Omar Darobe',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1609,7 +1609,7 @@ export const employeesData = [
     EmployeeImage: avatar,
   },
   {
-    EmployeeID: 4,
+    id: 34,
     Name: 'Penjani Inyene',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1618,7 +1618,7 @@ export const employeesData = [
     EmployeeImage: avatar,
   },
   {
-    EmployeeID: 5,
+    id: 35,
     Name: 'Miron Vitold',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1627,7 +1627,7 @@ export const employeesData = [
     EmployeeImage: avatar2,
   },
   {
-    EmployeeID: 1,
+    id: 36,
     Name: 'Nancy Davolio',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
@@ -1636,7 +1636,7 @@ export const employeesData = [
     EmployeeImage: avatar2,
   },
   {
-    EmployeeID: 2,
+    id: 37,
     Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1645,7 +1645,7 @@ export const employeesData = [
     EmployeeImage: avatar3,
   },
   {
-    EmployeeID: 3,
+    id: 38,
     Name: 'Iulia Albu',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1654,7 +1654,7 @@ export const employeesData = [
     EmployeeImage: avatar4,
   },
   {
-    EmployeeID: 4,
+    id: 39,
     Name: 'Siegbert Gottfried',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1663,7 +1663,7 @@ export const employeesData = [
     EmployeeImage: avatar2,
   },
   {
-    EmployeeID: 5,
+    id: 40,
     Name: 'Omar Darobe',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1672,7 +1672,7 @@ export const employeesData = [
     EmployeeImage: avatar,
   },
   {
-    EmployeeID: 4,
+    id: 41,
     Name: 'Penjani Inyene',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1681,7 +1681,7 @@ export const employeesData = [
     EmployeeImage: avatar,
   },
   {
-    EmployeeID: 5,
+    id: 42,
     Name: 'Miron Vitold',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1690,7 +1690,7 @@ export const employeesData = [
     EmployeeImage: avatar2,
   },
   {
-    EmployeeID: 1,
+    id: 43,
     Name: 'Nancy Davolio',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
@@ -1699,7 +1699,7 @@ export const employeesData = [
     EmployeeImage: avatar2,
   },
   {
-    EmployeeID: 2,
+    id: 44,
     Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1708,7 +1708,7 @@ export const employeesData = [
     EmployeeImage: avatar3,
   },
   {
-    EmployeeID: 3,
+    id: 45,
     Name: 'Iulia Albu',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1717,7 +1717,7 @@ export const employeesData = [
     EmployeeImage: avatar4,
   },
   {
-    EmployeeID: 4,
+    id: 46,
     Name: 'Siegbert Gottfried',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1726,7 +1726,7 @@ export const employeesData = [
     EmployeeImage: avatar2,
   },
   {
-    EmployeeID: 5,
+    id: 47,
     Name: 'Omar Darobe',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1735,7 +1735,7 @@ export const employeesData = [
     EmployeeImage: avatar,
   },
   {
-    EmployeeID: 4,
+    id: 48,
     Name: 'Penjani Inyene',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1744,7 +1744,7 @@ export const employeesData = [
     EmployeeImage: avatar,
   },
   {
-    EmployeeID: 5,
+    id: 49,
     Name: 'Miron Vitold',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1753,7 +1753,7 @@ export const employeesData = [
     EmployeeImage: avatar2,
   },
   {
-    EmployeeID: 1,
+    id: 50,
     Name: 'Nancy Davolio',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
@@ -1762,7 +1762,7 @@ export const employeesData = [
     EmployeeImage: avatar2,
   },
   {
-    EmployeeID: 2,
+    id: 51,
     Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1771,7 +1771,7 @@ export const employeesData = [
     EmployeeImage: avatar3,
   },
   {
-    EmployeeID: 3,
+    id: 52,
     Name: 'Iulia Albu',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1780,7 +1780,7 @@ export const employeesData = [
     EmployeeImage: avatar4,
   },
   {
-    EmployeeID: 4,
+    id: 53,
     Name: 'Siegbert Gottfried',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1789,7 +1789,7 @@ export const employeesData = [
     EmployeeImage: avatar2,
   },
   {
-    EmployeeID: 5,
+    id: 54,
     Name: 'Omar Darobe',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1798,7 +1798,7 @@ export const employeesData = [
     EmployeeImage: avatar,
   },
   {
-    EmployeeID: 4,
+    id: 55,
     Name: 'Penjani Inyene',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1807,7 +1807,7 @@ export const employeesData = [
     EmployeeImage: avatar,
   },
   {
-    EmployeeID: 5,
+    id: 56,
     Name: 'Miron Vitold',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1816,7 +1816,7 @@ export const employeesData = [
     EmployeeImage: avatar2,
   },
   {
-    EmployeeID: 1,
+    id: 57,
     Name: 'Nancy Davolio',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
@@ -1825,7 +1825,7 @@ export const employeesData = [
     EmployeeImage: avatar2,
   },
   {
-    EmployeeID: 2,
+    id: 58,
     Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1834,7 +1834,7 @@ export const employeesData = [
     EmployeeImage: avatar3,
   },
   {
-    EmployeeID: 3,
+    id: 59,
     Name: 'Iulia Albu',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1843,7 +1843,7 @@ export const employeesData = [
     EmployeeImage: avatar4,
   },
   {
-    EmployeeID: 4,
+    id: 60,
     Name: 'Siegbert Gottfried',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1852,7 +1852,7 @@ export const employeesData = [
     EmployeeImage: avatar2,
   },
   {
-    EmployeeID: 5,
+    id: 61,
     Name: 'Omar Darobe',
     Title: 'HR',
     HireDate: '01/02/2021',
@@ -1861,7 +1861,7 @@ export const employeesData = [
     EmployeeImage: avatar,
   },
   {
-    EmployeeID: 4,
+    id: 62,
     Name: 'Penjani Inyene',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
@@ -1870,7 +1870,7 @@ export const employeesData = [
     EmployeeImage: avatar,
   },
   {
-    EmployeeID: 5,
+    id: 63,
     Name: 'Miron Vitold',
     Title: 'HR',
     HireDate: '01/02/2021',

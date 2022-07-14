@@ -58,12 +58,12 @@ const ThemeSettings: React.FC = () => {
         <div className='p-4 border-t-1 border-color ml-4'>
           <p className='font-semibold text-xl '>Theme Colors</p>
           <div className='flex gap-3'>
-            {themeColors.map((item, index) => (
-              <Tooltip key={index} title={item.name}>
-                <div
-                  className='relative mt-2 cursor-pointer flex gap-5 items-center'
-                  key={item.name}
-                >
+            {themeColors.map((item) => (
+              <div
+                className='relative mt-2 cursor-pointer flex gap-5 items-center'
+                key={item.name}
+              >
+                <Tooltip title='test'>
                   <button
                     type='button'
                     className='h-10 w-10 rounded-full cursor-pointer'
@@ -76,8 +76,8 @@ const ThemeSettings: React.FC = () => {
                       }`}
                     />
                   </button>
-                </div>
-              </Tooltip>
+                </Tooltip>
+              </div>
             ))}
           </div>
         </div>

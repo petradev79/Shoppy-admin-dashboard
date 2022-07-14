@@ -1,4 +1,4 @@
-import { LineChart, Line, ResponsiveContainer, Tooltip } from 'recharts';
+import { LineChart, Line, Tooltip } from 'recharts';
 
 type SparklineDataType = {
   x: number;
@@ -21,12 +21,10 @@ const SparkLine: React.FC<SparkLineProps> = ({
   type,
 }) => {
   return (
-    <ResponsiveContainer width={width} height={height}>
-      <LineChart width={width} height={height} data={data}>
-        <Tooltip />
-        <Line type={type} dataKey='yval' stroke={color} />
-      </LineChart>
-    </ResponsiveContainer>
+    <LineChart width={width} height={height} data={data}>
+      <Tooltip />
+      <Line type={type} dataKey='yval' stroke={color} />
+    </LineChart>
   );
 };
 
