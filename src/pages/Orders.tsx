@@ -68,6 +68,8 @@ const StatusStyle = (id: string, bg: string) =>
   id === 'Status'
     ? {
         backgroundColor: bg,
+        padding: '.5rem 1rem',
+        borderRadius: '1rem',
       }
     : {
         backgroundColor: 'transparent',
@@ -118,28 +120,30 @@ const Orders = () => {
                       tabIndex={-1}
                       key={row.OrderID}
                     >
-                      <TableCell key={'ProductImage'}>
+                      <StyledTableCell key={'ProductImage'}>
                         <img
                           src={row['ProductImage']}
-                          alt=''
+                          alt='Product'
                           className='w-12 h-12'
                         />
-                      </TableCell>
+                      </StyledTableCell>
                       {ordersHead
                         .filter((column) => column.id !== 'ProductImage')
                         .map((column) => {
                           const value = row[column.id];
                           return (
-                            <TableCell key={column.id} align={column.align}>
+                            <StyledTableCell
+                              key={column.id}
+                              align={column.align}
+                            >
                               <span
-                                className='px-4 py-2 rounded'
                                 style={StatusStyle(column.id, row.StatusBg)}
                               >
                                 {column.format && typeof value === 'number'
                                   ? column.format(value)
                                   : value}
                               </span>
-                            </TableCell>
+                            </StyledTableCell>
                           );
                         })}
                     </StyledTableRow>

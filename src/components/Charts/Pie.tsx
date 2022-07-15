@@ -1,4 +1,4 @@
-import { ResponsiveContainer, PieChart, Pie, Cell, Legend } from 'recharts';
+import { PieChart, Pie, Cell, Legend } from 'recharts';
 
 type PieType = {
   name: string;
@@ -7,8 +7,8 @@ type PieType = {
 };
 
 type PieChartProps = {
-  height: number | string;
-  width: number | string;
+  height?: number;
+  width?: number;
   data: PieType[];
   radius?: number | string;
   isLegend?: boolean;
@@ -58,25 +58,23 @@ const PieChartComponent: React.FC<PieChartProps> = ({
   isLegend = false,
 }) => {
   return (
-    <ResponsiveContainer width={width} height={height}>
-      <PieChart>
-        {isLegend && (
-          <Legend layout='horizontal' verticalAlign='top' align='center' />
-        )}
-        <Pie
-          data={data}
-          dataKey='value'
-          labelLine={false}
-          label={renderCustomizedLabel}
-          outerRadius={radius}
-          fill='#8884d8'
-        >
-          {data.map((entry, index) => (
-            <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-          ))}
-        </Pie>
-      </PieChart>
-    </ResponsiveContainer>
+    <PieChart width={width} height={height}>
+      {isLegend && (
+        <Legend layout='horizontal' verticalAlign='top' align='center' />
+      )}
+      <Pie
+        data={data}
+        dataKey='value'
+        labelLine={false}
+        label={renderCustomizedLabel}
+        outerRadius={radius}
+        fill='#8884d8'
+      >
+        {data.map((entry, index) => (
+          <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+        ))}
+      </Pie>
+    </PieChart>
   );
 };
 
